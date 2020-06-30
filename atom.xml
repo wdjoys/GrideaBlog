@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://neihan.xyz</id>
-    <title>内涵小黄鸭</title>
-    <updated>2020-06-30T16:06:20.887Z</updated>
+    <title>内涵小鸭子</title>
+    <updated>2020-06-30T16:08:09.618Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://neihan.xyz"/>
     <link rel="self" href="https://neihan.xyz/atom.xml"/>
     <subtitle>学而时习之，温故而知新</subtitle>
     <logo>https://neihan.xyz/images/avatar.png</logo>
     <icon>https://neihan.xyz/favicon.ico</icon>
-    <rights>All rights reserved 2020, 内涵小黄鸭</rights>
+    <rights>All rights reserved 2020, 内涵小鸭子</rights>
     <entry>
         <title type="html"><![CDATA[第一篇博文]]></title>
         <id>https://neihan.xyz/post/6pTkiDKG6/</id>
