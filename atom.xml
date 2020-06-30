@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://blog.56lx.com</id>
+    <id>https://wdjoys.github.io</id>
     <title>Gridea</title>
-    <updated>2020-06-30T04:57:54.910Z</updated>
+    <updated>2020-06-30T05:00:01.097Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://blog.56lx.com"/>
-    <link rel="self" href="https://blog.56lx.com/atom.xml"/>
+    <link rel="alternate" href="https://wdjoys.github.io"/>
+    <link rel="self" href="https://wdjoys.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://blog.56lx.com/images/avatar.png</logo>
-    <icon>https://blog.56lx.com/favicon.ico</icon>
+    <logo>https://wdjoys.github.io/images/avatar.png</logo>
+    <icon>https://wdjoys.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://blog.56lx.com/post/hello-gridea/</id>
-        <link href="https://blog.56lx.com/post/hello-gridea/">
+        <id>https://wdjoys.github.io/post/hello-gridea/</id>
+        <link href="https://wdjoys.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
