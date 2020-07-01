@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://neihan.xyz</id>
     <title>内涵小鸭子</title>
-    <updated>2020-07-01T15:15:55.403Z</updated>
+    <updated>2020-07-01T15:26:55.072Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://neihan.xyz"/>
     <link rel="self" href="https://neihan.xyz/atom.xml"/>
@@ -16,8 +16,12 @@
         <link href="https://neihan.xyz/post/di-yi-pian-bo-wen/">
         </link>
         <updated>2020-06-30T16:02:31.000Z</updated>
+        <summary type="html"><![CDATA[<p>十来年间，搞了五六个博客，最终都因为各种各样的原因夭折了。<br>
+最近因为记忆力越来越差，学啥东西总是忘记，故又整个博客，记录编码过程中踩的坑，以此加深理解与记忆。</p>
+]]></summary>
         <content type="html"><![CDATA[<p>十来年间，搞了五六个博客，最终都因为各种各样的原因夭折了。<br>
 最近因为记忆力越来越差，学啥东西总是忘记，故又整个博客，记录编码过程中踩的坑，以此加深理解与记忆。</p>
+<!-- more -->
 <figure data-type="image" tabindex="1"><img src="https://neihan.xyz/post-images/1593532969157.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
