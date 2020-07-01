@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://neihan.xyz</id>
     <title>内涵小鸭子</title>
-    <updated>2020-07-01T15:59:22.823Z</updated>
+    <updated>2020-07-01T16:08:41.644Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://neihan.xyz"/>
     <link rel="self" href="https://neihan.xyz/atom.xml"/>
@@ -63,26 +63,27 @@ wget https://raw.githubusercontent.com/oooldking/script/master/superspeed.sh<br>
 chmod +x superspeed.sh<br>
 ./superspeed.sh</p>
 <p>java运行jar示例<br>
-java -Xmx1900M -Xms64M -jar -Dfile.encoding=utf-8 -Duser.timezone=Asia/Shanghai run.jar nogui</p>
+<code>java -Xmx1900M -Xms64M -jar -Dfile.encoding=utf-8 -Duser.timezone=Asia/Shanghai run.jar nogui</code></p>
 <p>一键挂载<br>
-yum install wget -y &amp;&amp; wget -O auto_disk.sh http://download.bt.cn/tools/auto_disk.sh &amp;&amp; bash auto_disk.sh</p>
-<p>wget -O disk.sh http://download.bt.cn/tools/disk.sh &amp;&amp; bash disk.sh /website</p>
+<code>yum install wget -y &amp;&amp; wget -O auto_disk.sh http://download.bt.cn/tools/auto_disk.sh &amp;&amp; bash auto_disk.sh</code></p>
+<p><code>wget -O disk.sh http://download.bt.cn/tools/disk.sh &amp;&amp; bash disk.sh /website</code></p>
 <p>解决Host key verification failed<br>
-ssh-keygen -R ip</p>
+<code>ssh-keygen -R ip</code></p>
 <p>centos安装python3<br>
-wget https://www.moerats.com/usr/shell/Python3/CentOS_Python3.6.sh &amp;&amp; sh CentOS_Python3.6.sh</p>
+<code>wget https://www.moerats.com/usr/shell/Python3/CentOS_Python3.6.sh &amp;&amp; sh CentOS_Python3.6.sh</code></p>
 <p>申请ssl证书文件验证位置<br>
-/.well-known/pki-validation/fileauth.txt</p>
-<p>aws设置密码登陆脚本<br>
-#!/bin/bash<br>
-echo root:xxxxxxxx |sudo chpasswd root<br>
-sudo sed -i 's/^#?PermitRootLogin./PermitRootLogin yes/g' /etc/ssh/sshd_config;<br>
-sudo sed -i 's/^#?PasswordAuthentication./PasswordAuthentication yes/g' /etc/ssh/sshd_config;<br>
-sudo reboot</p>
+<code>/.well-known/pki-validation/fileauth.txt</code></p>
+<p>aws设置密码登陆脚本</p>
+<pre><code>#!/bin/bash
+echo root:xxxxxxxx |sudo chpasswd root
+sudo sed -i 's/^#?PermitRootLogin./PermitRootLogin yes/g' /etc/ssh/sshd_config;
+sudo sed -i 's/^#?PasswordAuthentication./PasswordAuthentication yes/g' /etc/ssh/sshd_config;
+sudo reboot
+</code></pre>
 <p>ss一键脚本<br>
-ss：wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-go.sh<br>
-chmod +x shadowsocks-go.sh<br>
-./shadowsocks-go.sh 2&gt;&amp;1 | tee shadowsocks-go.log</p>
+<code>ss：wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-go.sh</code><br>
+<code>chmod +x shadowsocks-go.sh</code><br>
+<code>./shadowsocks-go.sh 2&gt;&amp;1 | tee shadowsocks-go.log</code></p>
 <p>goflyway一键脚本<br>
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/goflyway.sh &amp;&amp; chmod +x goflyway.sh &amp;&amp; bash goflyway.sh</p>
 <p>ovz架构bbr（centos6需要升级glibc）<br>
