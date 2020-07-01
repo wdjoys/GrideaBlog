@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://neihan.xyz</id>
     <title>内涵小鸭子</title>
-    <updated>2020-07-01T15:51:21.171Z</updated>
+    <updated>2020-07-01T15:59:22.823Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://neihan.xyz"/>
     <link rel="self" href="https://neihan.xyz/atom.xml"/>
@@ -10,6 +10,154 @@
     <logo>https://neihan.xyz/images/avatar.png</logo>
     <icon>https://neihan.xyz/favicon.ico</icon>
     <rights>All rights reserved 2020, 内涵小鸭子</rights>
+    <entry>
+        <title type="html"><![CDATA[linux笔记]]></title>
+        <id>https://neihan.xyz/post/linux-bi-ji/</id>
+        <link href="https://neihan.xyz/post/linux-bi-ji/">
+        </link>
+        <updated>2020-07-01T15:54:58.000Z</updated>
+        <content type="html"><![CDATA[<p>1.命令可能有些已经失效，请仔细检查<br>
+2.若命令有错误，可以在下方评论<br>
+3.都是个人随手记录，系统性不是特别好<br>
+...</p>
+<p>linux笔记<br>
+检测vps内存（包含swap）<br>
+<code>wget http://down.xxorg.com/Tool/memtest/memtest_10M_64 chmod +x ./memtest_10M_64 ./memtest_10M_64</code></p>
+<p>安装epel源<br>
+<code>yum install epel-release</code></p>
+<p>一键评测脚本<br>
+<code>wget https://raw.githubusercontent.com/oooldking/script/master/superbench.sh</code><br>
+<code>chmod +x superbench.sh</code><br>
+<code>./superbench.sh</code></p>
+<p><code>wget -qO- --no-check-certificate https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash</code></p>
+<p><code>wget -qO- git.io/superbench.sh | bash</code></p>
+<p><code>chmod 777 ./unalpine.sh</code><br>
+<code>./unalpine.sh</code></p>
+<p>iptables 端口转发一键管理脚本 [v1.1.1]<br>
+<code>wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/iptables-pf.sh &amp;&amp; chmod +x iptables-pf.sh &amp;&amp; bash iptables-pf.sh</code></p>
+<p>rclone挂载示例<br>
+<code>rclone mount zxd666: /zxd666 --allow-other --allow-non-empty --vfs-cache-mode writes</code></p>
+<p>java -Xmx1024M -Xms1024M -jar server.jar nogui</p>
+<p>rclone mount zxd666:/root /zxd666 --copy-links --no-gzip-encoding --no-check-certificate --allow-other --allow-non-empty --umask 000</p>
+<p>安装nodejs #CentOS系统<br>
+curl -sL https://rpm.nodesource.com/setup_10.x | bash -</p>
+<p>yum install nodejs git -y</p>
+<p>查看onedrive容量页面<br>
+storman.aspx</p>
+<p>dd安装win8.1<br>
+wget --no-check-certificate -qO DebianNET.sh 'https://raw.githubusercontent.com/wn789/xitong/master/DebianNET.sh' &amp;&amp; bash DebianNET.sh -dd 'https://moeclub.org/onedrive/IMAGE/Windows/win8.1emb_x64.tar.gz'</p>
+<p>安装rclone<br>
+curl https://rclone.org/install.sh | sudo bash</p>
+<p>生成ssh密钥<br>
+ssh-keygen -t rsa -b 4096 -C“3014779200@qq.com”</p>
+<p>更换阿里云源<br>
+wget -qO- git.io/superupdate.sh | bash</p>
+<p>centos7创建swap<br>
+dd if=/dev/zero of=/swapfile bs=1M count=1024</p>
+<p>mkswap /swapfile</p>
+<p>swapon /swapfile</p>
+<p>vi /etc/fstab</p>
+<p>/swapfile swap swap defaults 0 0</p>
+<p>网络测速<br>
+wget https://raw.githubusercontent.com/oooldking/script/master/superspeed.sh<br>
+chmod +x superspeed.sh<br>
+./superspeed.sh</p>
+<p>java运行jar示例<br>
+java -Xmx1900M -Xms64M -jar -Dfile.encoding=utf-8 -Duser.timezone=Asia/Shanghai run.jar nogui</p>
+<p>一键挂载<br>
+yum install wget -y &amp;&amp; wget -O auto_disk.sh http://download.bt.cn/tools/auto_disk.sh &amp;&amp; bash auto_disk.sh</p>
+<p>wget -O disk.sh http://download.bt.cn/tools/disk.sh &amp;&amp; bash disk.sh /website</p>
+<p>解决Host key verification failed<br>
+ssh-keygen -R ip</p>
+<p>centos安装python3<br>
+wget https://www.moerats.com/usr/shell/Python3/CentOS_Python3.6.sh &amp;&amp; sh CentOS_Python3.6.sh</p>
+<p>申请ssl证书文件验证位置<br>
+/.well-known/pki-validation/fileauth.txt</p>
+<p>aws设置密码登陆脚本<br>
+#!/bin/bash<br>
+echo root:xxxxxxxx |sudo chpasswd root<br>
+sudo sed -i 's/^#?PermitRootLogin./PermitRootLogin yes/g' /etc/ssh/sshd_config;<br>
+sudo sed -i 's/^#?PasswordAuthentication./PasswordAuthentication yes/g' /etc/ssh/sshd_config;<br>
+sudo reboot</p>
+<p>ss一键脚本<br>
+ss：wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-go.sh<br>
+chmod +x shadowsocks-go.sh<br>
+./shadowsocks-go.sh 2&gt;&amp;1 | tee shadowsocks-go.log</p>
+<p>goflyway一键脚本<br>
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/goflyway.sh &amp;&amp; chmod +x goflyway.sh &amp;&amp; bash goflyway.sh</p>
+<p>ovz架构bbr（centos6需要升级glibc）<br>
+wget --no-check-certificate https://raw.githubusercontent.com/kuoruan/shell-scripts/master/ovz-bbr/ovz-bbr-installer.sh chmod +x ovz-bbr-installer.sh ./ovz-bbr-installer.sh</p>
+<p>kvm架构bbr<br>
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh<br>
+chmod +x bbr.sh<br>
+./bbr.sh</p>
+<p>多版本bbr一键脚本<br>
+wget -N --no-check-certificate &quot;https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh&quot; &amp;&amp; chmod +x tcp.sh &amp;&amp; ./tcp.sh</p>
+<p>java -jar openzaly-server.jar -h</p>
+<p>另一个ss脚本<br>
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh<br>
+chmod +x shadowsocks-all.sh<br>
+./shadowsocks-all.sh 2&gt;&amp;1 | tee shadowsocks-all.log</p>
+<p>MTProxy<br>
+wget -N --no-check-certificate https://raw.githubusercontent.com/iiiiiii1/doubi/master/mtproxy_go.sh &amp;&amp; bash mtproxy_go.sh</p>
+<p>跑分脚本<br>
+wget https://soft.itbulu.com/tools/UnixBench5.1.3.tgz<br>
+tar -zxvf UnixBench5.1.3.tgz<br>
+cd UnixBench<br>
+make<br>
+./Run</p>
+<p>宝塔<br>
+yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install.sh &amp;&amp; sh install.sh</p>
+<p>修改宝塔端口<br>
+centos6<br>
+echo '8881' &gt; /www/server/panel/data/port.pl &amp;&amp; /etc/init.d/bt restart iptables -I INPUT -p tcp -m state --state NEW -m tcp --dport 8881 -j ACCEPT service iptables save</p>
+<p>centos7<br>
+echo '8881' &gt; /www/server/panel/data/port.pl &amp;&amp; /etc/init.d/bt restart firewall-cmd --permanent --zone=public --add-port=8881/tcp firewall-cmd --reload</p>
+<p>宝塔面板其他示例<br>
+echo '23901' &gt; /www/server/panel/data/port.pl &amp;&amp; service bt restart<br>
+echo '[::]:8080' &gt; /www/server/panel/data/port.pl &amp;&amp; /etc/init.d/bt restart<br>
+http://[2001:41d0:8:6db3:2020:2021:0:19]:8080/login</p>
+<p>nginx监听ipv6<br>
+listen 80;</p>
+<p>listen [::]:80;</p>
+<p>listen 443 ssl http2;</p>
+<p>listen [::]:443 ssl http2;</p>
+<p>修改ssh端口<br>
+vim /etc/ssh/sshd_config</p>
+<p>重启ssh<br>
+/etc/init.d/sshd restart</p>
+<p>查看系统端口占用<br>
+yum -y install net-tools</p>
+<p>netstat -ntlp</p>
+<p>hping3用法示例<br>
+hping3 -S -i u1000 -p 80 -V 40.83.78.164<br>
+hping3 -c 10000 -d 120 -S -w 64 -p -i u100 80 104.167.104.88<br>
+-i u100</p>
+<p>安装ssh<br>
+yum install openssh-server -y<br>
+service sshd restart</p>
+<p>安装python3.6<br>
+yum install -y wget &amp;&amp; wget -O py3.sh https://lnmp.me/ftp/py3.sh --no-check-certificate &amp;&amp; sh py3.sh</p>
+<p>kangle<br>
+yum -y install wget;wget http://kangle.odata.cc/start;sh start</p>
+<p>改宝塔密码<br>
+cd /www/server/panel &amp;&amp; python tools.pyc panel xxxxxxxx</p>
+<p>centos关闭防火墙<br>
+6<br>
+service iptables stop</p>
+<p>7<br>
+systemctl stop firewalld.service</p>
+<p>urlos安装后需执行<br>
+service docker restart</p>
+<p>汉化面板<br>
+wget -P /opt/ovz-web-panel/config/locales http://mise.tianji.me/zh_CN.yml<br>
+/etc/rc.d/init.d/owp restart</p>
+<p>端口映射示例<br>
+iptables -t nat -A PREROUTING -i eth0 -p tcp -m tcp --dport 10022 -j DNAT --to-destination 192.168.1.100:22</p>
+<p>一键增加中文<br>
+wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/LocaleCN/master/LocaleCN.sh &amp;&amp; bash LocaleCN.sh</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[第一篇博文]]></title>
         <id>https://neihan.xyz/post/di-yi-pian-bo-wen/</id>

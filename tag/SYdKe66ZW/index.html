@@ -9,7 +9,7 @@
 <meta name="description" content="学而时习之，温故而知新">
 <meta name="theme-color" content="#000">
 <title>内涵小鸭子</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1593618675645">
+<link rel="shortcut icon" href="/favicon.ico?v=1593619157150">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -217,19 +217,19 @@
     <div class="sidebar-item-box">
       <a href="/archives/">
         
-        <span class="site-item-stat-count">2</span>
+        <span class="site-item-stat-count">3</span>
         <span class="site-item-stat-name language" data-lan="article">文章</span>
       </a>
     </div>
     <div class="sidebar-item-box">
       <a href="">
-        <span class="site-item-stat-count">2</span>
+        <span class="site-item-stat-count">4</span>
         <span class="site-item-stat-name language" data-lan="category">分类</span>
       </a>
     </div>
     <div class="sidebar-item-box">
       <a href="/tags/">
-        <span class="site-item-stat-count">2</span>
+        <span class="site-item-stat-count">4</span>
         <span class="site-item-stat-name language" data-lan="tag">标签</span>
       </a>
     </div>
@@ -296,6 +296,12 @@
           <small class="language" data-lan="tag">标签</small>
         </h2>
       </div>
+      
+      
+      
+      
+      
+      
       
       
       
@@ -525,6 +531,151 @@
       <hr>
     </div>
     <div class="result" id="result">
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://neihan.xyz/post/linux-bi-ji/"" data-c="
+          &lt;p&gt;1.命令可能有些已经失效，请仔细检查&lt;br&gt;
+2.若命令有错误，可以在下方评论&lt;br&gt;
+3.都是个人随手记录，系统性不是特别好&lt;br&gt;
+...&lt;/p&gt;
+&lt;p&gt;linux笔记&lt;br&gt;
+检测vps内存（包含swap）&lt;br&gt;
+&lt;code&gt;wget http://down.xxorg.com/Tool/memtest/memtest_10M_64 chmod +x ./memtest_10M_64 ./memtest_10M_64&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;安装epel源&lt;br&gt;
+&lt;code&gt;yum install epel-release&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;一键评测脚本&lt;br&gt;
+&lt;code&gt;wget https://raw.githubusercontent.com/oooldking/script/master/superbench.sh&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;chmod +x superbench.sh&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;./superbench.sh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wget -qO- --no-check-certificate https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wget -qO- git.io/superbench.sh | bash&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;chmod 777 ./unalpine.sh&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;./unalpine.sh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;iptables 端口转发一键管理脚本 [v1.1.1]&lt;br&gt;
+&lt;code&gt;wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/iptables-pf.sh &amp;amp;&amp;amp; chmod +x iptables-pf.sh &amp;amp;&amp;amp; bash iptables-pf.sh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;rclone挂载示例&lt;br&gt;
+&lt;code&gt;rclone mount zxd666: /zxd666 --allow-other --allow-non-empty --vfs-cache-mode writes&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;java -Xmx1024M -Xms1024M -jar server.jar nogui&lt;/p&gt;
+&lt;p&gt;rclone mount zxd666:/root /zxd666 --copy-links --no-gzip-encoding --no-check-certificate --allow-other --allow-non-empty --umask 000&lt;/p&gt;
+&lt;p&gt;安装nodejs #CentOS系统&lt;br&gt;
+curl -sL https://rpm.nodesource.com/setup_10.x | bash -&lt;/p&gt;
+&lt;p&gt;yum install nodejs git -y&lt;/p&gt;
+&lt;p&gt;查看onedrive容量页面&lt;br&gt;
+storman.aspx&lt;/p&gt;
+&lt;p&gt;dd安装win8.1&lt;br&gt;
+wget --no-check-certificate -qO DebianNET.sh &#39;https://raw.githubusercontent.com/wn789/xitong/master/DebianNET.sh&#39; &amp;amp;&amp;amp; bash DebianNET.sh -dd &#39;https://moeclub.org/onedrive/IMAGE/Windows/win8.1emb_x64.tar.gz&#39;&lt;/p&gt;
+&lt;p&gt;安装rclone&lt;br&gt;
+curl https://rclone.org/install.sh | sudo bash&lt;/p&gt;
+&lt;p&gt;生成ssh密钥&lt;br&gt;
+ssh-keygen -t rsa -b 4096 -C“3014779200@qq.com”&lt;/p&gt;
+&lt;p&gt;更换阿里云源&lt;br&gt;
+wget -qO- git.io/superupdate.sh | bash&lt;/p&gt;
+&lt;p&gt;centos7创建swap&lt;br&gt;
+dd if=/dev/zero of=/swapfile bs=1M count=1024&lt;/p&gt;
+&lt;p&gt;mkswap /swapfile&lt;/p&gt;
+&lt;p&gt;swapon /swapfile&lt;/p&gt;
+&lt;p&gt;vi /etc/fstab&lt;/p&gt;
+&lt;p&gt;/swapfile swap swap defaults 0 0&lt;/p&gt;
+&lt;p&gt;网络测速&lt;br&gt;
+wget https://raw.githubusercontent.com/oooldking/script/master/superspeed.sh&lt;br&gt;
+chmod +x superspeed.sh&lt;br&gt;
+./superspeed.sh&lt;/p&gt;
+&lt;p&gt;java运行jar示例&lt;br&gt;
+java -Xmx1900M -Xms64M -jar -Dfile.encoding=utf-8 -Duser.timezone=Asia/Shanghai run.jar nogui&lt;/p&gt;
+&lt;p&gt;一键挂载&lt;br&gt;
+yum install wget -y &amp;amp;&amp;amp; wget -O auto_disk.sh http://download.bt.cn/tools/auto_disk.sh &amp;amp;&amp;amp; bash auto_disk.sh&lt;/p&gt;
+&lt;p&gt;wget -O disk.sh http://download.bt.cn/tools/disk.sh &amp;amp;&amp;amp; bash disk.sh /website&lt;/p&gt;
+&lt;p&gt;解决Host key verification failed&lt;br&gt;
+ssh-keygen -R ip&lt;/p&gt;
+&lt;p&gt;centos安装python3&lt;br&gt;
+wget https://www.moerats.com/usr/shell/Python3/CentOS_Python3.6.sh &amp;amp;&amp;amp; sh CentOS_Python3.6.sh&lt;/p&gt;
+&lt;p&gt;申请ssl证书文件验证位置&lt;br&gt;
+/.well-known/pki-validation/fileauth.txt&lt;/p&gt;
+&lt;p&gt;aws设置密码登陆脚本&lt;br&gt;
+#!/bin/bash&lt;br&gt;
+echo root:xxxxxxxx |sudo chpasswd root&lt;br&gt;
+sudo sed -i &#39;s/^#?PermitRootLogin./PermitRootLogin yes/g&#39; /etc/ssh/sshd_config;&lt;br&gt;
+sudo sed -i &#39;s/^#?PasswordAuthentication./PasswordAuthentication yes/g&#39; /etc/ssh/sshd_config;&lt;br&gt;
+sudo reboot&lt;/p&gt;
+&lt;p&gt;ss一键脚本&lt;br&gt;
+ss：wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-go.sh&lt;br&gt;
+chmod +x shadowsocks-go.sh&lt;br&gt;
+./shadowsocks-go.sh 2&amp;gt;&amp;amp;1 | tee shadowsocks-go.log&lt;/p&gt;
+&lt;p&gt;goflyway一键脚本&lt;br&gt;
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/goflyway.sh &amp;amp;&amp;amp; chmod +x goflyway.sh &amp;amp;&amp;amp; bash goflyway.sh&lt;/p&gt;
+&lt;p&gt;ovz架构bbr（centos6需要升级glibc）&lt;br&gt;
+wget --no-check-certificate https://raw.githubusercontent.com/kuoruan/shell-scripts/master/ovz-bbr/ovz-bbr-installer.sh chmod +x ovz-bbr-installer.sh ./ovz-bbr-installer.sh&lt;/p&gt;
+&lt;p&gt;kvm架构bbr&lt;br&gt;
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh&lt;br&gt;
+chmod +x bbr.sh&lt;br&gt;
+./bbr.sh&lt;/p&gt;
+&lt;p&gt;多版本bbr一键脚本&lt;br&gt;
+wget -N --no-check-certificate &amp;quot;https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh&amp;quot; &amp;amp;&amp;amp; chmod +x tcp.sh &amp;amp;&amp;amp; ./tcp.sh&lt;/p&gt;
+&lt;p&gt;java -jar openzaly-server.jar -h&lt;/p&gt;
+&lt;p&gt;另一个ss脚本&lt;br&gt;
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh&lt;br&gt;
+chmod +x shadowsocks-all.sh&lt;br&gt;
+./shadowsocks-all.sh 2&amp;gt;&amp;amp;1 | tee shadowsocks-all.log&lt;/p&gt;
+&lt;p&gt;MTProxy&lt;br&gt;
+wget -N --no-check-certificate https://raw.githubusercontent.com/iiiiiii1/doubi/master/mtproxy_go.sh &amp;amp;&amp;amp; bash mtproxy_go.sh&lt;/p&gt;
+&lt;p&gt;跑分脚本&lt;br&gt;
+wget https://soft.itbulu.com/tools/UnixBench5.1.3.tgz&lt;br&gt;
+tar -zxvf UnixBench5.1.3.tgz&lt;br&gt;
+cd UnixBench&lt;br&gt;
+make&lt;br&gt;
+./Run&lt;/p&gt;
+&lt;p&gt;宝塔&lt;br&gt;
+yum install -y wget &amp;amp;&amp;amp; wget -O install.sh http://download.bt.cn/install/install.sh &amp;amp;&amp;amp; sh install.sh&lt;/p&gt;
+&lt;p&gt;修改宝塔端口&lt;br&gt;
+centos6&lt;br&gt;
+echo &#39;8881&#39; &amp;gt; /www/server/panel/data/port.pl &amp;amp;&amp;amp; /etc/init.d/bt restart iptables -I INPUT -p tcp -m state --state NEW -m tcp --dport 8881 -j ACCEPT service iptables save&lt;/p&gt;
+&lt;p&gt;centos7&lt;br&gt;
+echo &#39;8881&#39; &amp;gt; /www/server/panel/data/port.pl &amp;amp;&amp;amp; /etc/init.d/bt restart firewall-cmd --permanent --zone=public --add-port=8881/tcp firewall-cmd --reload&lt;/p&gt;
+&lt;p&gt;宝塔面板其他示例&lt;br&gt;
+echo &#39;23901&#39; &amp;gt; /www/server/panel/data/port.pl &amp;amp;&amp;amp; service bt restart&lt;br&gt;
+echo &#39;[::]:8080&#39; &amp;gt; /www/server/panel/data/port.pl &amp;amp;&amp;amp; /etc/init.d/bt restart&lt;br&gt;
+http://[2001:41d0:8:6db3:2020:2021:0:19]:8080/login&lt;/p&gt;
+&lt;p&gt;nginx监听ipv6&lt;br&gt;
+listen 80;&lt;/p&gt;
+&lt;p&gt;listen [::]:80;&lt;/p&gt;
+&lt;p&gt;listen 443 ssl http2;&lt;/p&gt;
+&lt;p&gt;listen [::]:443 ssl http2;&lt;/p&gt;
+&lt;p&gt;修改ssh端口&lt;br&gt;
+vim /etc/ssh/sshd_config&lt;/p&gt;
+&lt;p&gt;重启ssh&lt;br&gt;
+/etc/init.d/sshd restart&lt;/p&gt;
+&lt;p&gt;查看系统端口占用&lt;br&gt;
+yum -y install net-tools&lt;/p&gt;
+&lt;p&gt;netstat -ntlp&lt;/p&gt;
+&lt;p&gt;hping3用法示例&lt;br&gt;
+hping3 -S -i u1000 -p 80 -V 40.83.78.164&lt;br&gt;
+hping3 -c 10000 -d 120 -S -w 64 -p -i u100 80 104.167.104.88&lt;br&gt;
+-i u100&lt;/p&gt;
+&lt;p&gt;安装ssh&lt;br&gt;
+yum install openssh-server -y&lt;br&gt;
+service sshd restart&lt;/p&gt;
+&lt;p&gt;安装python3.6&lt;br&gt;
+yum install -y wget &amp;amp;&amp;amp; wget -O py3.sh https://lnmp.me/ftp/py3.sh --no-check-certificate &amp;amp;&amp;amp; sh py3.sh&lt;/p&gt;
+&lt;p&gt;kangle&lt;br&gt;
+yum -y install wget;wget http://kangle.odata.cc/start;sh start&lt;/p&gt;
+&lt;p&gt;改宝塔密码&lt;br&gt;
+cd /www/server/panel &amp;amp;&amp;amp; python tools.pyc panel xxxxxxxx&lt;/p&gt;
+&lt;p&gt;centos关闭防火墙&lt;br&gt;
+6&lt;br&gt;
+service iptables stop&lt;/p&gt;
+&lt;p&gt;7&lt;br&gt;
+systemctl stop firewalld.service&lt;/p&gt;
+&lt;p&gt;urlos安装后需执行&lt;br&gt;
+service docker restart&lt;/p&gt;
+&lt;p&gt;汉化面板&lt;br&gt;
+wget -P /opt/ovz-web-panel/config/locales http://mise.tianji.me/zh_CN.yml&lt;br&gt;
+/etc/rc.d/init.d/owp restart&lt;/p&gt;
+&lt;p&gt;端口映射示例&lt;br&gt;
+iptables -t nat -A PREROUTING -i eth0 -p tcp -m tcp --dport 10022 -j DNAT --to-destination 192.168.1.100:22&lt;/p&gt;
+&lt;p&gt;一键增加中文&lt;br&gt;
+wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/LocaleCN/master/LocaleCN.sh &amp;amp;&amp;amp; bash LocaleCN.sh&lt;/p&gt;
+">linux笔记</a>
+      </div>
       
       <div class="item">
         <a class="result-title" style="opacity: 0;" href="https://neihan.xyz/post/di-yi-pian-bo-wen/"" data-c="
