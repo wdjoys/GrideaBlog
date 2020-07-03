@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://neihan.xyz</id>
     <title>内涵小鸭子</title>
-    <updated>2020-07-02T04:45:27.222Z</updated>
+    <updated>2020-07-03T07:15:05.855Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://neihan.xyz"/>
     <link rel="self" href="https://neihan.xyz/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://neihan.xyz/images/avatar.png</logo>
     <icon>https://neihan.xyz/favicon.ico</icon>
     <rights>All rights reserved 2020, 内涵小鸭子</rights>
+    <entry>
+        <title type="html"><![CDATA[第二篇文章]]></title>
+        <id>https://neihan.xyz/post/di-er-pian-wen-zhang/</id>
+        <link href="https://neihan.xyz/post/di-er-pian-wen-zhang/">
+        </link>
+        <updated>2020-07-03T07:14:19.000Z</updated>
+        <content type="html"><![CDATA[<p>#不不不不不</p>
+<h2 id="发斯蒂芬斯蒂芬">发斯蒂芬斯蒂芬</h2>
+<pre><code>        editCompany () {
+            this.$refs.newCompanyForm.validate(valid =&gt; {
+                if (valid) { // 校验通过
+                    this.loading = true
+                    organization.put(this.newCompanyForm).then(res =&gt; {
+                        this.loading = false
+                    })
+                }
+            })
+        },
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[linux笔记]]></title>
         <id>https://neihan.xyz/post/linux-bi-ji/</id>
